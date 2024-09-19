@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Snap</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <div class="card w-card">
+            <h4 class="s-title">Welcome to</h4>
+            <h1 class="title">Weather Snap</h1>
+            <div class="w-image"></div>
+
+            <form class="search w-search" action="Weather" onsubmit="return validateForm()" name="search-form">
+                <input type="text" class="w-city" name="city" placeholder="enter your city" required>
+
+                <button type="submit">
+                    <img src="./images/search.png" alt="Q" width="16px">
+                </button>
+            </form>
+        </div>
+    </body>
+</html>
